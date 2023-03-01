@@ -63,7 +63,7 @@ namespace cycle
         }
 
 
-        public void Xpaths2(string path2,string key, WorkSheet worksheet)
+        public void Xpaths2(string path2,string key)
         {
             IWebElement Product2 = driver.FindElement(By.XPath(path2));
             Product2.SendKeys(key);
